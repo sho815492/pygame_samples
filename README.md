@@ -11,4 +11,6 @@
  - seven_seg_pg.py: Seven_segクラス
  - lcd_font_pg.py: LCD_fontクラス
  １２３
- 
+
+![alt text](image.png)
+![alt text](image-1.png)
