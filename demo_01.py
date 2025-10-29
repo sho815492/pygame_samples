@@ -5,7 +5,7 @@ pygame.init()
 
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode([700, 600])
-pygame.display.set_caption("pygame demo - aiueo")
+pygame.display.set_caption("pygame demo - ステップ２")
 
 running = True
 x1, y1 = 0, 2
@@ -17,7 +17,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill((100, 100, 170))  # back ground color
+    screen.fill((50, 100, 170))  # back ground color
 
     pygame.draw.circle(screen, (150 , 176, 222), (400, 300), 150)
     pygame.draw.circle(screen, (222, 176, 222), (150, 300), 20)
