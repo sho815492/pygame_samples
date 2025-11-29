@@ -133,7 +133,7 @@ class LCD_font():
         self.COLOR_ON = COLOR_ON
         self.COLOR_OFF = COLOR_OFF
 
-    def init_row(self, X_ORG=2, Y_ORG=8, COL_INTV=6):  # 表示行の設定
+    def init_row(self, X_ORG=2, Y_ORG=8, Z_ORG=6, COL_INTV=6):  # 表示行の設定
         # xy空間での7セグ表示、最上位桁の左下座標をブロック数で指定
         self.X_ORG = X_ORG * self.BLOCK_INTV
         self.Y_ORG = Y_ORG * self.BLOCK_INTV
@@ -157,4 +157,5 @@ class LCD_font():
                 org1 = (x0 + x * self.BLOCK_INTV, y0 + y * self.BLOCK_INTV)
                 # ドットを描く
                 pygame.draw.rect(self.screen, color, Rect(org1[0], org1[1], block_size, block_size))
+                
                 i += 1

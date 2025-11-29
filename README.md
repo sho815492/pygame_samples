@@ -150,3 +150,4 @@ lcd1.update_col(col=5, code=10)
 lcd1.update_col(col=6, code=dt_now.second // 10)
 lcd1.update_col(col=7, code=dt_now.second % 10)
 
+<video controls src="20251129-1216-37.0160326.mp4" title="Title"></video>

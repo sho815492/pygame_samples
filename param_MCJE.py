@@ -5,7 +5,7 @@
 from mcje.vec3 import Vec3
 
 PLAYER_NAME = "sho815492"  # player name in Minecraft
-PLAYER_ORIGIN = Vec3(2300, 0, 2000)  # po.x, po.y, po.z
+PLAYER_ORIGIN = Vec3(2300, 70, 2000)  # po.x, po.y, po.z
 print(f"param_MCJE loaded for {PLAYER_NAME} at {PLAYER_ORIGIN.x}, {PLAYER_ORIGIN.y}, {PLAYER_ORIGIN.z}")
 
 # minecraft remote connection to the host at address:port
